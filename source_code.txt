@@ -1,0 +1,42 @@
+ 
+            // ich ändere ganz viel
+            // jetzt baue ich etwas neues ein
+             decimal zahl1;
+             decimal zahl2;
+             decimal summe;
+            decimal diff;
+            int des;
+
+Console.WriteLine("Gebe ein, was du möchtest:");
+            Console.WriteLine("Addition (Nr.1)");
+            Console.WriteLine("Subtraktion (Nr.2)");
+            des = Int32.Parse(Console.ReadLine());
+
+            if (des == 1)
+            {
+                Console.WriteLine("-Addition-");
+            }
+            else
+            {
+                Console.WriteLine("-Subtraktion-");
+            }
+            Console.ReadLine();
+
+           
+             Console.WriteLine("Gebe eine Zahl ein:");
+             zahl1 = Int32.Parse(Console.ReadLine());
+
+             Console.WriteLine("Noch eine Zahl:");
+             zahl2 = Int32.Parse(Console.ReadLine());
+
+            if (des == 1)
+            { 
+                    summe = zahl1 + zahl2;
+                    Console.WriteLine("Summe:" + summe);
+                    Console.ReadLine();
+            }
+            else {
+                    diff = zahl1 - zahl2;
+                    Console.WriteLine("Differenz:" + diff);
+                    Console.ReadLine();
+            }
